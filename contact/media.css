@@ -1,0 +1,1343 @@
+
+/* ----------------------------------------------------------- */
+/* MEDIA QUERY */
+/* ----------------------------------------------------------- */
+@media only screen and (min-device-width : 250px) and (max-device-width : 379px){
+    *{
+        font-size: 5px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 99;
+    }
+    .nav-links li{
+        margin: 2rem;
+    }
+    .nav-links a{
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .estimate-btn a {
+       color: #fff;
+       padding:  1.5rem;
+       overflow: visible;
+   }
+    .nav-links{
+        display: none;
+        background-color: #03030F;
+        color: #fff;
+        width: 60%;
+        position: absolute;
+        right: 0;
+        top: 8vh;
+        height: 88vh;
+}
+   .nav-links.nav-active{
+       display: flex;
+}
+
+header nav .burger{
+   display: block;
+}
+/* -------------------------------------------------------------------- */
+/* hero section*/
+/* -------------------------------------------------------------------- */
+#hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    color: #373737;
+    margin-bottom: 10rem;
+}
+
+#hero-section .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+#hero-section .hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+#hero-section .hero-description .big-title h3 {
+    font-size: 3rem;
+    margin: 3rem 0;
+    
+}
+
+#hero-section .hero-description .description p {
+    font-size: 2rem;
+}
+
+#hero-section .hero-image{
+    margin-top: 0;
+}
+#hero-section .hero-image img{
+    width: 90%;
+}
+
+#hero-section .email{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    padding: 2rem 0 ;
+}
+#hero-section .email p{
+    font-size: 2rem;
+}
+#hero-section .email img{
+    margin-right: 1rem;
+    width: 25px;
+    height: 25px;
+}
+
+/* -------------------------------------------------------------------- */
+/* estimate section*/
+/* -------------------------------------------------------------------- */
+#estimate-section .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+#estimate-section .nav h3,
+#estimate-section .nav p a{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#estimate-section .estimate-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#estimate-section .estimate-description .title h1{
+    font-size: 4rem;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#estimate-section .estimate-description .description p{
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    text-align: justify;
+}
+
+#estimate-section .estimate-tool{
+    padding: 1.5rem 5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#estimate-section .estimate-tool .tool h4{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-btns button{
+    padding: 1rem 1.5rem;
+    margin:0.5rem;
+    font-size: 1.5rem;
+}
+#estimate-section .estimate-tool .tool h3{
+    font-size: 2rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form input,
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form button{
+    font-size: 1rem;
+}
+
+
+#estimate-section .estimate-tool .estimate-img img{
+    width: 100%;
+}
+/* -------------------------------------------------------------------- */
+/* footer*/
+/* -------------------------------------------------------------------- */
+#footer-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #03030F;
+    color: #fff;
+    padding: 5% 1.5rem;
+}
+
+#footer-section .phone-numbers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#footer-section .phone-numbers .numbers{
+    margin-left: 2rem;
+}
+#footer-section .phone-numbers .numbers p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .inovi-email,
+#footer-section .inovi-email .copy-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+#footer-section .inovi-email .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #373737;
+}
+
+#footer-section .inovi-email .email{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+#footer-section .inovi-email .email p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+#footer-section .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#footer-section .social-media .inovi-social a{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+#footer-section .social-media .inovi-social a img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+#footer-section .social-media .policy{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#footer-section .social-media .policy a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: #373737;
+}
+
+
+}
+
+/* --------------------------------------------*/
+/* --------------------------------------------*/
+/* --------------------------------------------*/
+/* Extra small devices (phones, 600px and down) */
+/* --------------------------------------------*/
+/* --------------------------------------------*/
+/* --------------------------------------------*/
+@media only screen and (min-device-width : 380px) and (max-device-width : 599px){
+    *{
+        font-size: 7px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 99;
+    }
+    .nav-links li{
+        margin: 2rem;
+    }
+    .nav-links a{
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .estimate-btn a {
+       color: #fff;
+       padding:  1.5rem;
+       overflow: visible;
+   }
+    .nav-links{
+        display: none;
+        background-color: #03030F;
+        color: #fff;
+        width: 60%;
+        position: absolute;
+        right: 0;
+        top: 8vh;
+        height: 88vh;
+}
+   .nav-links.nav-active{
+       display: flex;
+}
+
+header nav .burger{
+   display: block;
+}
+/* -------------------------------------------------------------------- */
+/* hero section*/
+/* -------------------------------------------------------------------- */
+#hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    color: #373737;
+    margin-bottom: 10rem;
+}
+
+#hero-section .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+#hero-section .hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+#hero-section .hero-description .big-title h3 {
+    font-size: 3rem;
+    margin: 3rem 0;
+    
+}
+
+#hero-section .hero-description .description p {
+    font-size: 2rem;
+}
+
+#hero-section .hero-image{
+    margin-top: 0;
+}
+#hero-section .hero-image img{
+    width: 90%;
+}
+
+#hero-section .email{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    padding: 2rem 0 ;
+}
+#hero-section .email p{
+    font-size: 2rem;
+}
+#hero-section .email img{
+    margin-right: 1rem;
+    width: 25px;
+    height: 25px;
+}
+
+/* -------------------------------------------------------------------- */
+/* estimate section*/
+/* -------------------------------------------------------------------- */
+#estimate-section .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+#estimate-section .nav h3,
+#estimate-section .nav p a{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#estimate-section .estimate-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#estimate-section .estimate-description .title h1{
+    font-size: 4rem;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#estimate-section .estimate-description .description p{
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    text-align: justify;
+}
+
+#estimate-section .estimate-tool{
+    padding: 1.5rem 5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#estimate-section .estimate-tool .tool h4{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-btns button{
+    padding: 1rem 1.5rem;
+    margin:0.5rem;
+    font-size: 1.5rem;
+}
+#estimate-section .estimate-tool .tool h3{
+    font-size: 2rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form input,
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form button{
+    font-size: 1.5rem;
+}
+
+
+#estimate-section .estimate-tool .estimate-img img{
+    width: 100%;
+}
+/* -------------------------------------------------------------------- */
+/* footer*/
+/* -------------------------------------------------------------------- */
+#footer-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #03030F;
+    color: #fff;
+    padding: 5% 1.5rem;
+}
+
+#footer-section .phone-numbers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#footer-section .phone-numbers .numbers{
+    margin-left: 2rem;
+}
+#footer-section .phone-numbers .numbers p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .inovi-email,
+#footer-section .inovi-email .copy-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+#footer-section .inovi-email .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #373737;
+}
+
+#footer-section .inovi-email .email{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+#footer-section .inovi-email .email p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+#footer-section .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#footer-section .social-media .inovi-social a{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+#footer-section .social-media .inovi-social a img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+#footer-section .social-media .policy{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#footer-section .social-media .policy a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: #373737;
+}
+
+
+}
+
+/* --------------------------------------------*/
+/* --------------------------------------------*/
+/* --------------------------------------------*/
+/* Extra small devices (phones, 600px and down) */
+/* --------------------------------------------*/
+/* --------------------------------------------*/
+/* --------------------------------------------*/
+@media only screen and (max-width: 600px) {
+    *{
+        font-size: 7px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 99;
+    }
+    .nav-links li{
+        margin: 2rem;
+    }
+    .nav-links a{
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .estimate-btn a {
+       color: #fff;
+       padding:  1.5rem;
+       overflow: visible;
+   }
+    .nav-links{
+        display: none;
+        background-color: #03030F;
+        color: #fff;
+        width: 60%;
+        position: absolute;
+        right: 0;
+        top: 8vh;
+        height: 88vh;
+}
+   .nav-links.nav-active{
+       display: flex;
+}
+
+header nav .burger{
+   display: block;
+}
+/* -------------------------------------------------------------------- */
+/* hero section*/
+/* -------------------------------------------------------------------- */
+#hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    color: #373737;
+    margin-bottom: 10rem;
+}
+
+#hero-section .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+#hero-section .hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+#hero-section .hero-description .big-title h3 {
+    font-size: 3rem;
+    margin: 3rem 0;
+    
+}
+
+#hero-section .hero-description .description p {
+    font-size: 2rem;
+}
+
+#hero-section .hero-image{
+    margin-top: 0;
+}
+#hero-section .hero-image img{
+    width: 90%;
+}
+
+#hero-section .email{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    padding: 2rem 0 ;
+}
+#hero-section .email p{
+    font-size: 2rem;
+}
+#hero-section .email img{
+    margin-right: 1rem;
+    width: 25px;
+    height: 25px;
+}
+
+/* -------------------------------------------------------------------- */
+/* estimate section*/
+/* -------------------------------------------------------------------- */
+#estimate-section .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+#estimate-section .nav h3,
+#estimate-section .nav p a{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#estimate-section .estimate-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#estimate-section .estimate-description .title h1{
+    font-size: 4rem;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#estimate-section .estimate-description .description p{
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    text-align: justify;
+}
+
+#estimate-section .estimate-tool{
+    padding: 1.5rem 5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#estimate-section .estimate-tool .tool h4{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-btns button{
+    padding: 1rem 1.5rem;
+    margin:0.5rem;
+    font-size: 1.5rem;
+}
+#estimate-section .estimate-tool .tool h3{
+    font-size: 2rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form input,
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form button{
+    font-size: 1.5rem;
+}
+
+
+#estimate-section .estimate-tool .estimate-img img{
+    width: 100%;
+}
+/* -------------------------------------------------------------------- */
+/* footer*/
+/* -------------------------------------------------------------------- */
+#footer-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #03030F;
+    color: #fff;
+    padding: 5% 1.5rem;
+}
+
+#footer-section .phone-numbers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#footer-section .phone-numbers .numbers{
+    margin-left: 2rem;
+}
+#footer-section .phone-numbers .numbers p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .inovi-email,
+#footer-section .inovi-email .copy-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+#footer-section .inovi-email .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #373737;
+}
+
+#footer-section .inovi-email .email{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+#footer-section .inovi-email .email p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+#footer-section .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#footer-section .social-media .inovi-social a{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+#footer-section .social-media .inovi-social a img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+#footer-section .social-media .policy{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#footer-section .social-media .policy a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: #373737;
+}
+
+}
+
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* Small devices (min-device-width : 600px) and (max-device-width : 768px) */
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+@media only screen and (min-device-width : 600px) and (max-device-width : 767px){
+    *{
+        font-size: 7px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 99;
+    }
+    .nav-links li{
+        margin: 2rem;
+    }
+    .nav-links a{
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .estimate-btn a {
+       color: #fff;
+       padding:  1.5rem;
+       overflow: visible;
+   }
+    .nav-links{
+        display: none;
+        background-color: #03030F;
+        color: #fff;
+        width: 60%;
+        position: absolute;
+        right: 0;
+        top: 8vh;
+        height: 88vh;
+}
+   .nav-links.nav-active{
+       display: flex;
+}
+
+header nav .burger{
+   display: block;
+}
+/* -------------------------------------------------------------------- */
+/* hero section*/
+/* -------------------------------------------------------------------- */
+#hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    color: #373737;
+    margin-bottom: 10rem;
+}
+
+#hero-section .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+#hero-section .hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+#hero-section .hero-description .big-title h3 {
+    font-size: 3rem;
+    margin: 3rem 0;
+    
+}
+
+#hero-section .hero-description .description p {
+    font-size: 2rem;
+}
+
+#hero-section .hero-image{
+    margin-top: 0;
+}
+#hero-section .hero-image img{
+    width: 90%;
+}
+
+#hero-section .email{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    padding: 2rem 0 ;
+}
+#hero-section .email p{
+    font-size: 2rem;
+}
+#hero-section .email img{
+    margin-right: 1rem;
+    width: 25px;
+    height: 25px;
+}
+
+/* -------------------------------------------------------------------- */
+/* estimate section*/
+/* -------------------------------------------------------------------- */
+#estimate-section .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+#estimate-section .nav h3,
+#estimate-section .nav p a{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#estimate-section .estimate-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#estimate-section .estimate-description .title h1{
+    font-size: 4rem;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#estimate-section .estimate-description .description p{
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    text-align: justify;
+}
+
+#estimate-section .estimate-tool{
+    padding: 1.5rem 5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#estimate-section .estimate-tool .tool h4{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-btns button{
+    padding: 1rem 1.5rem;
+    margin:0.5rem;
+    font-size: 1.5rem;
+}
+#estimate-section .estimate-tool .tool h3{
+    font-size: 2rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form input,
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form button{
+    font-size: 1.5rem;
+}
+
+
+#estimate-section .estimate-tool .estimate-img img{
+    width: 100%;
+}
+/* -------------------------------------------------------------------- */
+/* footer*/
+/* -------------------------------------------------------------------- */
+#footer-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #03030F;
+    color: #fff;
+    padding: 5% 1.5rem;
+}
+
+#footer-section .phone-numbers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#footer-section .phone-numbers .numbers{
+    margin-left: 2rem;
+}
+#footer-section .phone-numbers .numbers p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .inovi-email,
+#footer-section .inovi-email .copy-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+#footer-section .inovi-email .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #373737;
+}
+
+#footer-section .inovi-email .email{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+#footer-section .inovi-email .email p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+#footer-section .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#footer-section .social-media .inovi-social a{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+#footer-section .social-media .inovi-social a img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+#footer-section .social-media .policy{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#footer-section .social-media .policy a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: #373737;
+}
+
+
+}
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* Medium devices (landscape tablets, 768px and up) */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    *{
+        font-size: 10px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 99;
+    }
+    .nav-links li{
+        margin: 2rem;
+    }
+    .nav-links a{
+        font-size: 1.5rem;
+        color: #fff;
+    }
+    .estimate-btn a {
+       color: #fff;
+       padding:  1.5rem;
+       overflow: visible;
+   }
+    .nav-links{
+        display: none;
+        background-color: #03030F;
+        color: #fff;
+        width: 60%;
+        position: absolute;
+        right: 0;
+        top: 8vh;
+        height: 88vh;
+}
+   .nav-links.nav-active{
+       display: flex;
+}
+
+header nav .burger{
+   display: block;
+}
+/* -------------------------------------------------------------------- */
+/* hero section*/
+/* -------------------------------------------------------------------- */
+#hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    color: #373737;
+    margin-bottom: 10rem;
+}
+
+#hero-section .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+#hero-section .hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+#hero-section .hero-description .big-title h3 {
+    font-size: 3rem;
+    margin: 3rem 0;
+    
+}
+
+#hero-section .hero-description .description p {
+    font-size: 2rem;
+}
+
+#hero-section .hero-image{
+    margin-top: 0;
+}
+#hero-section .hero-image img{
+    width: 90%;
+}
+
+#hero-section .email{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    padding: 2rem 0 ;
+}
+#hero-section .email p{
+    font-size: 2rem;
+}
+#hero-section .email img{
+    margin-right: 1rem;
+    width: 25px;
+    height: 25px;
+}
+
+/* -------------------------------------------------------------------- */
+/* estimate section*/
+/* -------------------------------------------------------------------- */
+#estimate-section .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+#estimate-section .nav h3,
+#estimate-section .nav p a{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#estimate-section .estimate-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#estimate-section .estimate-description .title h1{
+    font-size: 4rem;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#estimate-section .estimate-description .description p{
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    text-align: justify;
+}
+
+#estimate-section .estimate-tool{
+    padding: 1.5rem 5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#estimate-section .estimate-tool .tool h4{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-btns button{
+    padding: 1rem 1.5rem;
+    margin:0.5rem;
+    font-size: 1.5rem;
+}
+#estimate-section .estimate-tool .tool h3{
+    font-size: 2rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form input,
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form button{
+    font-size: 1.5rem;
+}
+
+
+#estimate-section .estimate-tool .estimate-img img{
+    width: 100%;
+}
+/* -------------------------------------------------------------------- */
+/* footer*/
+/* -------------------------------------------------------------------- */
+#footer-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #03030F;
+    color: #fff;
+    padding: 5% 1.5rem;
+}
+
+#footer-section .phone-numbers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#footer-section .phone-numbers .numbers{
+    margin-left: 2rem;
+}
+#footer-section .phone-numbers .numbers p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .inovi-email,
+#footer-section .inovi-email .copy-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+#footer-section .inovi-email .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #373737;
+}
+
+#footer-section .inovi-email .email{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+#footer-section .inovi-email .email p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+#footer-section .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#footer-section .social-media .inovi-social a{
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+#footer-section .social-media .inovi-social a img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+#footer-section .social-media .policy{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#footer-section .social-media .policy a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: #373737;
+}
+
+}
+
+/*---------------------------------------------- */
+/*---------------------------------------------- */
+/*---------------------------------------------- */
+/* Large devices (laptops/desktops, 992px and up) */
+/*---------------------------------------------- */
+/*---------------------------------------------- */
+/*---------------------------------------------- */
+/*---------------------------------------------- */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1300px)  {
+    * {
+        font-size: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    
+/* -------------------------------------------------------------------- */
+/* estimate section*/
+/* -------------------------------------------------------------------- */
+#estimate-section .nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+#estimate-section .nav h3,
+#estimate-section .nav p a{
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+#estimate-section .estimate-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+#estimate-section .estimate-description .title h1{
+    font-size: 4rem;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+#estimate-section .estimate-description .description p{
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    text-align: justify;
+}
+
+#estimate-section .estimate-tool{
+    padding: 1.5rem 5rem;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+#estimate-section .estimate-tool .tool h4{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-btns button{
+    padding: 1rem 1.5rem;
+    margin:0.5rem;
+    font-size: 1.5rem;
+}
+#estimate-section .estimate-tool .tool h3{
+    font-size: 2rem;
+}
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form input,
+#estimate-section .estimate-tool .tool .estimate-tool-inputs form button{
+    font-size: 1.5rem;
+}
+
+
+#estimate-section .estimate-tool .estimate-img img{
+    width: 100%;
+}
+}

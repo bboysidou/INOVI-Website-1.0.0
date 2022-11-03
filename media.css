@@ -1,0 +1,1812 @@
+
+/* ----------------------------------------------------------- */
+/* MEDIA QUERY */
+/* ----------------------------------------------------------- */
+@media only screen and (min-device-width : 250px) and (max-device-width : 379px){
+    *{
+        font-size: 6px;
+    }
+     .nav-links{
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+         z-index: 99;
+     }
+     .nav-links li{
+         margin: 2rem;
+     }
+     .nav-links a{
+         font-size: 1.5rem;
+         color: #fff;
+     }
+     .estimate-btn a {
+        color: #fff;
+        padding:  1.5rem;
+        overflow: visible;
+    }
+     .nav-links{
+         display: none;
+         background-color: #03030F;
+         color: #fff;
+         width: 60%;
+         position: absolute;
+         right: 0;
+         top: 8vh;
+         height: 88vh;
+}
+    .nav-links.nav-active{
+        display: flex;
+}
+
+header nav .burger{
+    display: block;
+}
+     /* --------------------------------------------------------------------- */
+/* hero section*/
+/* --------------------------------------------------------------------- */
+     #hero-section{
+         flex-direction: column-reverse;
+         align-items: center;
+         justify-content: center;
+         width: 100vw;
+         margin: 0 ;
+         margin-top: 8vh;
+     }
+     #hero-section .social-media{
+         flex-direction: row;
+         margin-top: 3rem;
+     }
+
+     #hero-section .social-media a img{
+         width: 40px;
+         height: 40px;
+         margin: 0 1.5rem;
+     }
+     #hero-section .hero-description h4{
+         text-align: center;
+         font-size: 2rem;
+         margin-bottom: 1rem;
+     }
+     #hero-section .hero-description .big-title{
+         width: 100%;
+         margin-left: 0rem;
+        }
+    #hero-section .hero-description .big-title h3 {
+         margin-left: 0rem;
+         font-size: 2.5rem;
+         margin-bottom: 3rem;
+         width: 100%;
+         text-align: center;
+         white-space: nowrap;
+     }
+     #hero-section .hero-image img{
+         width:  100%;
+     }
+
+/* --------------------------------------------------------------------- */
+/* design section*/
+/* --------------------------------------------------------------------- */
+#design-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10% 1.5rem;
+    background: #03030F;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#design-section .design-title,
+#development-section .development-title,
+#working-with-us-section .working-with-us-title {
+    padding: 1rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#design-section .design-description .design-title p,
+#development-section .development-description .development-title p,
+#working-with-us-section .working-with-us-description .working-with-us-title p{
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#design-section .design-description .design-title,
+#development-section .development-description .development-title {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+#design-section .design-title h3,
+#development-section .development-title h3,
+#working-with-us-section .working-with-us-title h3 {
+    font-size: 4rem;
+}
+
+#design-section .design-cards,
+#development-section .development-cards,
+#working-with-us-section .working-with-us-cards {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+#design-section .design-card-section,
+#development-section .development-card-section,
+#working-with-us-section .working-with-us-card-section {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 5rem;
+}
+
+#design-section .design-card-section .card,
+#development-section .development-card-section .card,
+#working-with-us-section .working-with-us-card-section .card {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#design-section .design-card-section .card .card-title,
+#development-section .development-card-section .card .card-title,
+#working-with-us-section .working-with-us-card-section .card-title {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+
+#design-section .design-card-section .card .card-title h4,
+#development-section .development-card-section .card .card-title h4,
+#working-with-us-section .working-with-us-card-section .card-title h4{
+    font-size: 2.5rem;
+}
+
+#design-section .design-card-section .card .card-title img,
+#development-section .development-card-section .card .card-title img,
+#working-with-us-section .working-with-us-card-section .card-title img {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    width: 25px;
+    height: 25px;
+}
+
+#design-section .design-card-section .card .card-body p,
+#development-section .development-card-section .card .card-body p,
+#working-with-us-section .working-with-us-card-section .card-body p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* development section*/
+/* --------------------------------------------------------------------- */
+
+#development-section {
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 10% 1.5rem;
+    color: #373737;
+}
+
+/* --------------------------------------------------------------------- */
+/* tech section*/
+/* --------------------------------------------------------------------- */
+#tech-section {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 10% 1.5rem;
+    background: #03030F;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#tech-section .tech-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#tech-section .tech-title h2{
+    font-size: 2rem;
+}
+
+#tech-section .tech-title img {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-right: 2rem;
+}
+
+
+#tech-section .tech-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 1.5rem;
+    gap: 5rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#tech-section .tech-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+#tech-section .tech-cards .card p{
+    font-size: 1.5rem;
+}
+#tech-section .tech-cards .card img {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+/* --------------------------------------------------------------------- */
+/* work with us section*/
+/* --------------------------------------------------------------------- */
+#working-with-us-section {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 10% 1.5rem;
+    color: #373737;
+}
+
+#working-with-us-section .working-with-us-card-section .card{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#working-with-us-section .estimate-btn-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0;
+}
+
+#working-with-us-section .estimate-btn-section .estimate-txt p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#working-with-us-section .estimate-btn-section .estimate-btn{
+
+    padding: 1rem 0.5rem;
+}
+#working-with-us-section .estimate-btn-section .estimate-btn a{
+    font-size: 1rem;
+}
+/* -------------------------------------------------------------------- */
+/* footer*/
+/* -------------------------------------------------------------------- */
+#footer-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #03030F;
+    color: #fff;
+    padding: 5% 1.5rem;
+}
+
+#footer-section .phone-numbers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#footer-section .phone-numbers .numbers{
+    margin-left: 2rem;
+}
+#footer-section .phone-numbers .numbers p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .inovi-email,
+#footer-section .inovi-email .copy-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+#footer-section .inovi-email .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #373737;
+}
+
+#footer-section .inovi-email .email{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+#footer-section .inovi-email .email p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+#footer-section .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#footer-section .social-media .inovi-social a{
+    margin: 0 1rem;
+}
+
+#footer-section .social-media .inovi-social a img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+#footer-section .social-media .policy{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#footer-section .social-media .policy a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: #373737;
+}
+
+}
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/* Extra small devices (phones, 600px and down) */
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+/*----------------------------------------------*/
+@media only screen and (min-device-width : 380px) and (max-device-width : 599px){
+    *{
+        font-size: 7px;
+    }
+     .nav-links{
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+         z-index: 999;
+     }
+     .nav-links li{
+         margin: 2rem;
+     }
+     .nav-links a{
+         font-size: 1.5rem;
+         color: #fff;
+     }
+     .estimate-btn a {
+        color: #fff;
+        padding:  1.5rem;
+        overflow: visible;
+    }
+     .nav-links{
+         display: none;
+         background-color: #03030F;
+         color: #fff;
+         width: 60%;
+         position: absolute;
+         right: 0;
+         top: 8vh;
+         height: 88vh;
+}
+    .nav-links.nav-active{
+        display: flex;
+}
+
+header nav .burger{
+    display: block;
+}
+     /* --------------------------------------------------------------------- */
+/* hero section*/
+/* --------------------------------------------------------------------- */
+     #hero-section{
+         flex-direction: column-reverse;
+         align-items: center;
+         width: 80%;
+         margin: 0 auto;
+         margin-top: 8vh;
+     }
+     #hero-section .social-media{
+         flex-direction: row;
+         margin-top: 3rem;
+     }
+
+     #hero-section .social-media a img{
+         width: 40px;
+         height: 40px;
+         margin: 0 1.5rem;
+     }
+     #hero-section .hero-description h4{
+         text-align: center;
+         font-size: 2rem;
+         margin-bottom: 1rem;
+     }
+     #hero-section .hero-description .big-title{
+        width: 100%; 
+        margin-left: 0rem;
+     }
+     #hero-section .hero-description .big-title h3 {
+         margin-left: 0;
+         font-size: 2.5rem;
+         margin-bottom: 3rem;
+         width: 100%;
+         text-align: left;
+         white-space: nowrap;
+     }
+     #hero-section .hero-image img{
+         width:  100%;
+     }
+
+/* --------------------------------------------------------------------- */
+/* design section*/
+/* --------------------------------------------------------------------- */
+#design-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10% 1.5rem;
+    background: #03030F;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#design-section .design-title,
+#development-section .development-title,
+#working-with-us-section .working-with-us-title {
+    padding: 1rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#design-section .design-description .design-title p,
+#development-section .development-description .development-title p,
+#working-with-us-section .working-with-us-description .working-with-us-title p{
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#design-section .design-description .design-title,
+#development-section .development-description .development-title {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+#design-section .design-title h3,
+#development-section .development-title h3,
+#working-with-us-section .working-with-us-title h3 {
+    font-size: 4rem;
+}
+
+#design-section .design-cards,
+#development-section .development-cards,
+#working-with-us-section .working-with-us-cards {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+#design-section .design-card-section,
+#development-section .development-card-section,
+#working-with-us-section .working-with-us-card-section {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 5rem;
+}
+
+#design-section .design-card-section .card,
+#development-section .development-card-section .card,
+#working-with-us-section .working-with-us-card-section .card {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#design-section .design-card-section .card .card-title,
+#development-section .development-card-section .card .card-title,
+#working-with-us-section .working-with-us-card-section .card-title {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+
+#design-section .design-card-section .card .card-title h4,
+#development-section .development-card-section .card .card-title h4,
+#working-with-us-section .working-with-us-card-section .card-title h4{
+    font-size: 2.5rem;
+}
+
+#design-section .design-card-section .card .card-title img,
+#development-section .development-card-section .card .card-title img,
+#working-with-us-section .working-with-us-card-section .card-title img {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    width: 25px;
+    height: 25px;
+}
+
+#design-section .design-card-section .card .card-body p,
+#development-section .development-card-section .card .card-body p,
+#working-with-us-section .working-with-us-card-section .card-body p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* development section*/
+/* --------------------------------------------------------------------- */
+
+#development-section {
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 10% 1.5rem;
+    color: #373737;
+}
+
+/* --------------------------------------------------------------------- */
+/* tech section*/
+/* --------------------------------------------------------------------- */
+#tech-section {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 10% 1.5rem;
+    background: #03030F;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#tech-section .tech-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#tech-section .tech-title h2{
+    font-size: 2rem;
+}
+
+#tech-section .tech-title img {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-right: 2rem;
+}
+
+
+#tech-section .tech-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 1.5rem;
+    gap: 5rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#tech-section .tech-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+#tech-section .tech-cards .card p{
+    font-size: 1.5rem;
+}
+#tech-section .tech-cards .card img {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+/* --------------------------------------------------------------------- */
+/* work with us section*/
+/* --------------------------------------------------------------------- */
+#working-with-us-section {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 10% 1.5rem;
+    color: #373737;
+}
+
+#working-with-us-section .working-with-us-card-section .card{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#working-with-us-section .estimate-btn-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0;
+}
+#working-with-us-section .estimate-btn-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#working-with-us-section .estimate-btn-section .estimate-txt p{
+    font-size: 1.5rem;
+}
+#working-with-us-section .estimate-btn-section .estimate-btn{
+
+    padding: 1.3rem 2rem;
+}
+#working-with-us-section .estimate-btn-section .estimate-btn a{
+    font-size: 1.5rem;
+}
+/* -------------------------------------------------------------------- */
+/* footer*/
+/* -------------------------------------------------------------------- */
+#footer-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #03030F;
+    color: #fff;
+    padding: 5% 1.5rem;
+}
+
+#footer-section .phone-numbers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#footer-section .phone-numbers .numbers{
+    margin-left: 2rem;
+}
+#footer-section .phone-numbers .numbers p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .inovi-email,
+#footer-section .inovi-email .copy-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+#footer-section .inovi-email .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #373737;
+}
+
+#footer-section .inovi-email .email{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+#footer-section .inovi-email .email p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+#footer-section .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#footer-section .social-media .inovi-social a{
+    margin: 0 1rem;
+}
+
+#footer-section .social-media .inovi-social a img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+#footer-section .social-media .policy{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#footer-section .social-media .policy a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: #373737;
+}
+
+}
+
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* Small devices (min-device-width : 600px) and (max-device-width : 768px) */
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
+@media only screen and (min-device-width : 600px) and (max-device-width : 767px){
+    *{
+        font-size: 7px;
+    }
+     .nav-links{
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+         z-index: 999;
+     }
+     .nav-links li{
+         margin: 2rem;
+         padding: 0;
+     }
+     .nav-links a{
+         font-size: 1.5rem;
+         color: #fff;
+     }
+     .estimate-btn a {
+        color: #fff;
+        padding: 1.5rem;
+        overflow: visible;
+    }
+     .nav-links{
+         display: none;
+         background-color: #03030F;
+         color: #fff;
+         width: 60%;
+         position: absolute;
+         right: 0;
+         top: 8vh;
+         height: 88vh;
+}
+    .nav-links.nav-active{
+        display: flex;
+}
+
+header nav .burger{
+    display: block;
+}
+     /* --------------------------------------------------------------------- */
+/* hero section*/
+/* --------------------------------------------------------------------- */
+     #hero-section{
+         flex-direction: column-reverse;
+         align-items: center;
+         width: 80%;
+         margin: 0 auto;
+     }
+     #hero-section .social-media{
+         flex-direction: row;
+         margin-top: 3rem;
+     }
+
+     #hero-section .social-media a img{
+         width: 40px;
+         height: 40px;
+         margin: 0 1.5rem;
+     }
+     #hero-section .hero-description h4{
+         text-align: center;
+         font-size: 2rem;
+         margin-bottom: 1rem;
+     }
+     #hero-section .hero-description .big-title{
+        width: 100%; 
+        margin-left: 0rem;
+     }
+     #hero-section .hero-description .big-title h3 {
+         margin-left: 0;
+         font-size: 2.5rem;
+         margin-bottom: 3rem;
+         width: 100%;
+         text-align: center;
+         white-space: nowrap;
+     }
+     #hero-section .hero-image img{
+         width:  100%;
+     }
+
+/* --------------------------------------------------------------------- */
+/* design section*/
+/* --------------------------------------------------------------------- */
+#design-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10% 1.5rem;
+    background: #03030F;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#design-section .design-title,
+#development-section .development-title,
+#working-with-us-section .working-with-us-title {
+    padding: 1rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#design-section .design-description .design-title p,
+#development-section .development-description .development-title p,
+#working-with-us-section .working-with-us-description .working-with-us-title p{
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#design-section .design-description .design-title,
+#development-section .development-description .development-title {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+#design-section .design-title h3,
+#development-section .development-title h3,
+#working-with-us-section .working-with-us-title h3 {
+    font-size: 4rem;
+}
+
+#design-section .design-cards,
+#development-section .development-cards,
+#working-with-us-section .working-with-us-cards {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+#design-section .design-card-section,
+#development-section .development-card-section,
+#working-with-us-section .working-with-us-card-section {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 5rem;
+}
+
+#design-section .design-card-section .card,
+#development-section .development-card-section .card,
+#working-with-us-section .working-with-us-card-section .card {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#design-section .design-card-section .card .card-title,
+#development-section .development-card-section .card .card-title,
+#working-with-us-section .working-with-us-card-section .card-title {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+
+#design-section .design-card-section .card .card-title h4,
+#development-section .development-card-section .card .card-title h4,
+#working-with-us-section .working-with-us-card-section .card-title h4{
+    font-size: 2.5rem;
+}
+
+#design-section .design-card-section .card .card-title img,
+#development-section .development-card-section .card .card-title img,
+#working-with-us-section .working-with-us-card-section .card-title img {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    width: 25px;
+    height: 25px;
+}
+
+#design-section .design-card-section .card .card-body p,
+#development-section .development-card-section .card .card-body p,
+#working-with-us-section .working-with-us-card-section .card-body p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* development section*/
+/* --------------------------------------------------------------------- */
+
+#development-section {
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 10% 1.5rem;
+    color: #373737;
+}
+
+/* --------------------------------------------------------------------- */
+/* tech section*/
+/* --------------------------------------------------------------------- */
+#tech-section {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 10% 1.5rem;
+    background: #03030F;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#tech-section .tech-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#tech-section .tech-title h2{
+    font-size: 2rem;
+}
+
+#tech-section .tech-title img {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-right: 2rem;
+}
+
+
+#tech-section .tech-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 1.5rem;
+    gap: 5rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#tech-section .tech-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    margin: 0 auto;
+}
+#tech-section .tech-cards .card p{
+    font-size: 1.5rem;
+}
+#tech-section .tech-cards .card img {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+/* --------------------------------------------------------------------- */
+/* work with us section*/
+/* --------------------------------------------------------------------- */
+#working-with-us-section {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 10% 1.5rem;
+    color: #373737;
+}
+
+#working-with-us-section .working-with-us-cards .working-with-us-card-section .card{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#working-with-us-section .estimate-btn-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0;
+}
+#working-with-us-section .estimate-btn-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#working-with-us-section .estimate-btn-section .estimate-txt p{
+    font-size: 1.5rem;
+}
+#working-with-us-section .estimate-btn-section .estimate-btn{
+
+    padding: 1.3rem 2rem;
+}
+#working-with-us-section .estimate-btn-section .estimate-btn a{
+    font-size: 1.5rem;
+}
+/* -------------------------------------------------------------------- */
+/* footer*/
+/* -------------------------------------------------------------------- */
+#footer-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #03030F;
+    color: #fff;
+    padding: 5% 1.5rem;
+}
+
+#footer-section .phone-numbers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#footer-section .phone-numbers .numbers{
+    margin-left: 2rem;
+}
+#footer-section .phone-numbers .numbers p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .inovi-email,
+#footer-section .inovi-email .copy-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+#footer-section .inovi-email .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #373737;
+}
+
+#footer-section .inovi-email .email{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+#footer-section .inovi-email .email p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+#footer-section .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#footer-section .social-media .inovi-social a{
+    margin: 0 1rem;
+}
+
+#footer-section .social-media .inovi-social a img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+#footer-section .social-media .policy{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#footer-section .social-media .policy a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: #373737;
+}
+
+}
+
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* Medium devices (landscape tablets, 768px and up) */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+/* ------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1023px) {
+    *{
+        font-size: 10px;
+    }
+     .nav-links{
+         flex-direction: column;
+         justify-content: space-around;
+         align-items: center;
+         z-index: 999;
+     }
+     .nav-links li{
+         margin: 2rem;
+         padding: 0;
+     }
+     .nav-links a{
+         font-size: 1.5rem;
+         color: #fff;
+     }
+     .estimate-btn a {
+        color: #fff;
+        padding:1.5rem;
+        overflow: visible;
+    }
+     .nav-links{
+         display: none;
+         background-color: #03030F;
+         color: #fff;
+         width: 60%;
+         position: absolute;
+         right: 0;
+         top: 8vh;
+         height: 88vh;
+}
+    .nav-links.nav-active{
+        display: flex;
+}
+
+header nav .burger{
+    display: block;
+}
+     /* --------------------------------------------------------------------- */
+/* hero section*/
+/* --------------------------------------------------------------------- */
+     #hero-section{
+         flex-direction: column-reverse;
+         align-items: center;
+         width: 80%;
+         margin: 0 auto;
+     }
+     #hero-section .social-media{
+         flex-direction: row;
+         margin-top: 3rem;
+     }
+
+     #hero-section .social-media a img{
+         width: 40px;
+         height: 40px;
+         margin: 0 1.5rem;
+     }
+     #hero-section .hero-description h4{
+         text-align: center;
+         font-size: 2rem;
+         margin-bottom: 1rem;
+     }
+     #hero-section .hero-description .big-title{
+        width: 100%; 
+        margin-left: 0rem;
+     }
+     #hero-section .hero-description .big-title h3 {
+         margin-left: 0;
+         font-size: 2.5rem;
+         margin-bottom: 3rem;
+         width: 100%;
+         text-align: center;
+         white-space: nowrap;
+     }
+     #hero-section .hero-image img{
+         width:  100%;
+     }
+
+/* --------------------------------------------------------------------- */
+/* design section*/
+/* --------------------------------------------------------------------- */
+#design-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10% 1.5rem;
+    background: #03030F;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#design-section .design-title,
+#development-section .development-title,
+#working-with-us-section .working-with-us-title {
+    padding: 1rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#design-section .design-description .design-title p,
+#development-section .development-description .development-title p,
+#working-with-us-section .working-with-us-description .working-with-us-title p{
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#design-section .design-description .design-title,
+#development-section .development-description .development-title {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+#design-section .design-title h3,
+#development-section .development-title h3,
+#working-with-us-section .working-with-us-title h3 {
+    font-size: 4rem;
+}
+
+#design-section .design-cards,
+#development-section .development-cards,
+#working-with-us-section .working-with-us-cards {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+#design-section .design-card-section,
+#development-section .development-card-section,
+#working-with-us-section .working-with-us-card-section {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 5rem;
+}
+
+#design-section .design-card-section .card,
+#development-section .development-card-section .card,
+#working-with-us-section .working-with-us-card-section .card {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#design-section .design-card-section .card .card-title,
+#development-section .development-card-section .card .card-title,
+#working-with-us-section .working-with-us-card-section .card-title {
+    display: flex;
+    align-items: center;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+
+#design-section .design-card-section .card .card-title h4,
+#development-section .development-card-section .card .card-title h4,
+#working-with-us-section .working-with-us-card-section .card-title h4{
+    font-size: 2.5rem;
+}
+
+#design-section .design-card-section .card .card-title img,
+#development-section .development-card-section .card .card-title img,
+#working-with-us-section .working-with-us-card-section .card-title img {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+    width: 25px;
+    height: 25px;
+}
+
+#design-section .design-card-section .card .card-body p,
+#development-section .development-card-section .card .card-body p,
+#working-with-us-section .working-with-us-card-section .card-body p {
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+
+/* --------------------------------------------------------------------- */
+/* development section*/
+/* --------------------------------------------------------------------- */
+
+#development-section {
+    display: grid;
+    grid-template-columns: 1fr ;
+    padding: 10% 1.5rem;
+    color: #373737;
+}
+
+/* --------------------------------------------------------------------- */
+/* tech section*/
+/* --------------------------------------------------------------------- */
+#tech-section {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 10% 1.5rem;
+    background: #03030F;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#tech-section .tech-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+#tech-section .tech-title h2{
+    font-size: 2rem;
+}
+
+#tech-section .tech-title img {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-right: 2rem;
+}
+
+
+#tech-section .tech-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 1.5rem;
+    gap: 5rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+#tech-section .tech-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    margin: 0 auto;
+}
+#tech-section .tech-cards .card p{
+    font-size: 1.5rem;
+}
+#tech-section .tech-cards .card img {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+/* --------------------------------------------------------------------- */
+/* work with us section*/
+/* --------------------------------------------------------------------- */
+#working-with-us-section {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 10% 1.5rem;
+    color: #373737;
+}
+
+#working-with-us-section .working-with-us-cards .working-with-us-card-section .card{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#working-with-us-section .estimate-btn-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0;
+}
+
+#working-with-us-section .estimate-btn-section .estimate-txt p{
+    font-size: 1.5rem;
+}
+#working-with-us-section .estimate-btn-section .estimate-btn{
+
+    padding: 1.3rem 2rem;
+}
+#working-with-us-section .estimate-btn-section .estimate-btn a{
+    font-size: 1.5rem;
+}
+/* -------------------------------------------------------------------- */
+/* footer*/
+/* -------------------------------------------------------------------- */
+#footer-section{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #03030F;
+    color: #fff;
+    padding: 5% 1.5rem;
+}
+
+#footer-section .phone-numbers{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+#footer-section .phone-numbers .numbers{
+    margin-left: 2rem;
+}
+#footer-section .phone-numbers .numbers p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .inovi-email,
+#footer-section .inovi-email .copy-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+#footer-section .inovi-email .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #373737;
+}
+
+#footer-section .inovi-email .email{
+    display: flex;
+    align-items: center;
+    margin: 5rem 0;
+}
+
+#footer-section .inovi-email .email p{
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+#footer-section .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#footer-section .social-media .inovi-social a{
+    margin: 0 1rem;
+}
+
+#footer-section .social-media .inovi-social a img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 2rem;
+
+}
+
+#footer-section .social-media .policy{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#footer-section .social-media .policy a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: #373737;
+}
+
+
+}
+
+/*---------------------------------------------- */
+/*---------------------------------------------- */
+/*---------------------------------------------- */
+/* Large devices (laptops/desktops, 992px and up) */
+/*---------------------------------------------- */
+/*---------------------------------------------- */
+/*---------------------------------------------- */
+/*---------------------------------------------- */
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1199px)  {
+    * {
+        font-size: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+
+    /* --------------------------------------------------------------------- */
+    /* hero section*/
+    /* --------------------------------------------------------------------- */
+    #hero-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1.5rem;
+        padding-bottom: 20%;
+    }
+    
+    #hero-section .social-media {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 1rem;
+    }
+
+    #hero-section .social-media a img{
+        margin: 1rem 0;
+    }
+    
+    #hero-section .hero-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0 1.5rem;
+        width: 60%;
+    }
+    
+    #hero-section .hero-description .big-title h3 {
+        font-size: 3rem;
+        margin-left: 0rem;
+        margin-top: 3rem;
+        margin-bottom: 15rem;
+        color: #373737;
+    }
+    
+    #hero-section .hero-description .description h4 {
+        font-size: 2.3rem;
+        color: #373737;
+    }
+    
+    #hero-section .hero-description .description p {
+        font-size: 2rem;
+        color: #373737;
+    }
+
+
+    
+    /* --------------------------------------------------------------------- */
+    /* design section*/
+    /* --------------------------------------------------------------------- */
+    #design-section {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        padding: 10% 1.5rem;
+        background: #03030F;
+        background-image: url('./images/background.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #fff;
+    }
+    
+    #design-section .design-title,
+    #development-section .development-title,
+    #working-with-us-section .working-with-us-title {
+        padding: 1rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    
+    #working-with-us-section .working-with-us-description .working-with-us-title {
+        text-align: center;
+    }
+    
+    #design-section .design-description .design-title,
+    #development-section .development-description .development-title {
+        text-align: justify;
+        width: 90%;
+    }
+    
+    #design-section .design-title h3,
+    #development-section .development-title h3,
+    #working-with-us-section .working-with-us-title h3 {
+        font-size: 2.3rem;
+    }
+    
+    #design-section .design-cards,
+    #development-section .development-cards,
+    #working-with-us-section .working-with-us-cards {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 5rem;
+        padding: 1rem;
+    }
+    
+    #design-section .design-card-section,
+    #development-section .development-card-section,
+    #working-with-us-section .working-with-us-card-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5rem;
+    }
+    
+    #design-section .design-card-section .card,
+    #development-section .development-card-section .card,
+    #working-with-us-section .working-with-us-card-section .card {
+        width: 80%;
+    }
+    
+    #design-section .design-card-section .card .card-title,
+    #development-section .development-card-section .card .card-title,
+    #working-with-us-section .working-with-us-card-section .card-title {
+        display: flex;
+        align-items: center;
+        padding: 1.5rem 0;
+        font-size: 2rem;
+    }
+    
+    #design-section .design-card-section .card .card-title img,
+    #development-section .development-card-section .card .card-title img,
+    #working-with-us-section .working-with-us-card-section .card-title img {
+        display: flex;
+        align-items: center;
+        margin-right: 2rem;
+    }
+    
+    #design-section .design-card-section .card .card-body p,
+    #development-section .development-card-section .card .card-body p,
+    #working-with-us-section .working-with-us-card-section .card-body p {
+        text-align: justify;
+        font-size: 1.5rem;
+    }
+    
+    /* --------------------------------------------------------------------- */
+    /* development section*/
+    /* --------------------------------------------------------------------- */
+    
+    #development-section {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        padding: 10% 1.5rem;
+        color: #373737;
+    }
+    
+    /* --------------------------------------------------------------------- */
+    /* tech section*/
+    /* --------------------------------------------------------------------- */
+    #tech-section {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 3rem;
+        padding: 10% 1.5rem;
+        background: #03030F;
+        background-image: url('./images/background.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #fff;
+    }
+    
+    #tech-section .tech-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.3rem;
+        margin-bottom: 2rem;
+    }
+    
+    #tech-section .tech-title img {
+        width: 6.25rem;
+        height: 6.25rem;
+        margin-right: 2rem;
+    }
+    
+    
+    #tech-section .tech-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 1.5rem;
+        gap: 5rem;
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+    
+    #tech-section .tech-cards .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #tech-section .tech-cards .card img {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+    
+    /* --------------------------------------------------------------------- */
+    /* work with us section*/
+    /* --------------------------------------------------------------------- */
+    #working-with-us-section {
+        display: grid;
+        grid-template-rows: 1fr;
+        align-items: center;
+        gap: 3rem;
+        padding: 10% 1.5rem;
+        /* height: 100vh; */
+        color: #373737;
+    }
+    
+    #working-with-us-section .working-with-us-card-section .card {
+        padding-left: 10rem;
+    
+    }
+    
+    #working-with-us-section .estimate-btn-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10rem 0;
+    }
+    
+    #working-with-us-section .estimate-btn-section .estimate-txt {
+        font-size: 1.5rem;
+        margin-right: 1rem;
+    }
+    /* -------------------------------------------------------------------- */
+    /* footer*/
+    /* -------------------------------------------------------------------- */
+    #footer-section{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        background: #03030F;
+        color: #fff;
+        padding: 5% 1.5rem;
+    }
+    
+    #footer-section .phone-numbers{
+        display: flex;
+        align-items: center;
+    }
+    
+    #footer-section .phone-numbers .numbers{
+        margin-left: 2rem;
+    }
+    #footer-section .phone-numbers .numbers p{
+        padding: .5rem 0;
+        font-size: 1.3rem;
+    }
+    
+    #footer-section .inovi-email,
+    #footer-section .inovi-email .copy-right{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between; 
+       align-items: center;
+    }
+    #footer-section .inovi-email .copy-right{
+        position: absolute;
+        bottom: 0;
+        color: #373737;
+    }
+    
+    #footer-section .inovi-email .email{
+        display: flex;
+        margin: 5rem 0;
+        font-size: 1.3rem;
+    }
+    
+    #footer-section .social-media{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end; 
+    }
+    #footer-section .social-media .inovi-social a{
+        margin: 0 1rem;
+    }
+    
+    #footer-section .social-media .policy{
+        position: absolute;
+        bottom: 1rem;
+        right: 1rem;
+    }
+    
+    #footer-section .social-media .policy a{
+        text-decoration: underline;
+        font-size: 1.3rem;
+        color: #373737;
+    }
+}

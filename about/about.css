@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* -------------------------------------------------------------------- */
+/* NAV BAR */
+/* -------------------------------------------------------------------- */
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    min-height: 8vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 1.5rem;
+}
+
+.nav-links a {
+    font-weight: 700;
+
+}
+
+.estimate-btn a {
+    border: 5px solid #0444E8;
+    font-weight: 600;
+    font-size: 0.9rem;
+    height: 100%;
+    padding: 0.5rem 1.5rem;
+    overflow: visible;
+    border-radius: 33px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -ms-border-radius: 33px;
+    -o-border-radius: 33px;
+}
+.nav-links .lang{
+    display: flex;
+}
+header nav .burger{
+    display: none;
+    cursor: pointer;
+    outline: none;
+}
+
+header nav .burger div{
+    width: 25px;
+    height: 3px;
+    background: #03030F;
+    margin: 5px;
+}
+/* -------------------------------------------------------------------- */
+/* hero section*/
+/* -------------------------------------------------------------------- */
+#hero-section {
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem 0 1.5rem ;
+    
+}
+
+#hero-section .social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+}
+#hero-section .social-media a{
+    margin: 1rem 0;
+}
+
+#hero-section .hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 6rem 0 12rem;
+}
+
+#hero-section .hero-description .big-title h3 {
+    font-size: 3rem;
+    margin: 5rem 0;
+    color: #373737;
+}
+
+#hero-section .hero-description .description p {
+    font-size: 2rem;
+    color: #373737;
+}
+
+#hero-section .hero-image{
+    margin-top: 8%;
+}
+/* -------------------------------------------------------------------- */
+/* goal section*/
+/* -------------------------------------------------------------------- */
+#goals-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+    background: #03030F;
+    background-image: url('../images/background.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    /* height: 100vh; */
+}
+
+#goals-section .nav,
+#engagement-section .nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#goals-section .nav p a{
+    color: #fff;
+}
+
+#goals-section .about-description,
+#engagement-section .about-description{
+    padding: 15rem 20%;
+    text-align: justify;
+}
+
+#goals-section .about-description .title img,
+#engagement-section .about-description .title img{
+    height: 50px;
+    width: 50px;
+    margin-right: 2rem;
+}
+
+#goals-section .about-description .title,
+#engagement-section .about-description .title{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    padding: 3rem 0;
+}
+
+#goals-section .about-description .description,
+#engagement-section .about-description .description{
+    font-size: 2rem;
+}
+
+/* -------------------------------------------------------------------- */
+/* engagement section*/
+/* -------------------------------------------------------------------- */
+#engagement-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    min-height: 100vh;
+    color: #373737;
+}
+
+#engagement-section .open-time{
+    padding: 3rem 0 0 0;
+    font-size: 1.5rem;
+}
+
+#engagement-section .inovi-address{
+    padding: 2rem 0 0 0;
+    font-size: 2rem;
+}
+
+/* -------------------------------------------------------------------- */
+/* footer*/
+/* -------------------------------------------------------------------- */
+#footer-section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: #03030F;
+    color: #fff;
+    padding: 5% 1.5rem;
+}
+
+#footer-section .phone-numbers{
+    display: flex;
+    align-items: center;
+}
+
+#footer-section .phone-numbers .numbers{
+    margin-left: 2rem;
+}
+#footer-section .phone-numbers .numbers p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .inovi-email,
+#footer-section .inovi-email .copy-right{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+#footer-section .inovi-email .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #373737;
+}
+
+#footer-section .inovi-email .email{
+    display: flex;
+    margin: 5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#footer-section .social-media .inovi-social a{
+    margin: 0 1rem;
+}
+
+#footer-section .social-media .policy{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#footer-section .social-media .policy a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: #373737;
+}

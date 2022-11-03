@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* --------------------------------------------------------------------- */
+/* NAV BAR */
+/* --------------------------------------------------------------------- */
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    min-height: 8vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 1.5rem;
+}
+
+.nav-links a {
+    font-weight: 700;
+
+}
+
+.estimate-btn a {
+    border: 5px solid #0444E8;
+    font-weight: 600;
+    font-size: 0.9rem;
+    height: 100%;
+    padding: 0.5rem 1.5rem;
+    overflow: visible;
+    border-radius: 33px;
+    -webkit-border-radius: 33px;
+    -moz-border-radius: 33px;
+    -ms-border-radius: 33px;
+    -o-border-radius: 33px;
+}
+.nav-links .lang{
+    display: flex;
+}
+header nav .burger{
+    display: none;
+    cursor: pointer;
+    outline: none;
+}
+
+header nav .burger div{
+    width: 25px;
+    height: 3px;
+    background: #03030F;
+    margin: 5px;
+}
+
+
+
+/* --------------------------------------------------------------------- */
+/* hero section*/
+/* --------------------------------------------------------------------- */
+#hero-section {
+    margin-top: 8vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    padding-bottom: 20%;
+}
+
+#hero-section .social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+#hero-section .social-media a{
+    margin: 1rem 0;
+}
+
+#hero-section .hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 6rem 0 12rem;
+}
+
+#hero-section .hero-description .big-title h3 {
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-left: 20%;
+    color: #373737;
+}
+
+#hero-section .hero-description .description h4 {
+    font-size: 2rem;
+    color: #373737;
+}
+
+#hero-section .hero-description .description p {
+    font-size: 1.5rem;
+    color: #373737;
+}
+
+/* --------------------------------------------------------------------- */
+/* design section*/
+/* --------------------------------------------------------------------- */
+#design-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10% 1.5rem;
+    background: #03030F;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#design-section .design-title,
+#development-section .development-title,
+#working-with-us-section .working-with-us-title {
+    padding: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.working-with-us-description-title{
+    margin-top: -3rem;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+}
+#working-with-us-section .working-with-us-description .working-with-us-title {
+    text-align: center;
+}
+
+#design-section .design-description .design-title,
+#development-section .development-description .development-title {
+    text-align: left;
+    width: 90%;
+}
+
+#design-section .design-title h3,
+#development-section .development-title h3,
+#working-with-us-section .working-with-us-title h3 {
+    font-size: 2.3rem;
+}
+
+#design-section .design-cards,
+#development-section .development-cards,
+#working-with-us-section .working-with-us-cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5rem;
+    padding: 1rem;
+}
+
+#design-section .design-card-section,
+#development-section .development-card-section,
+#working-with-us-section .working-with-us-card-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+#design-section .design-card-section .card,
+#development-section .development-card-section .card,
+#working-with-us-section .working-with-us-card-section .card {
+    width: 80%;
+}
+
+#design-section .design-card-section .card .card-title,
+#development-section .development-card-section .card .card-title,
+#working-with-us-section .working-with-us-card-section .card-title {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+
+#design-section .design-card-section .card .card-title img,
+#development-section .development-card-section .card .card-title img,
+#working-with-us-section .working-with-us-card-section .card-title img {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+#design-section .design-card-section .card .card-body p,
+#development-section .development-card-section .card .card-body p,
+#working-with-us-section .working-with-us-card-section .card-body p {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+/* --------------------------------------------------------------------- */
+/* development section*/
+/* --------------------------------------------------------------------- */
+
+#development-section {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 10% 1.5rem;
+    color: #373737;
+}
+
+/* --------------------------------------------------------------------- */
+/* tech section*/
+/* --------------------------------------------------------------------- */
+#tech-section {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+    padding: 10% 1.5rem;
+    background: #03030F;
+    background-image: url('./images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+#tech-section .tech-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
+}
+
+#tech-section .tech-title img {
+    width: 6.25rem;
+    height: 6.25rem;
+    margin-right: 2rem;
+}
+
+
+#tech-section .tech-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 1.5rem;
+    gap: 5rem;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+#tech-section .tech-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tech-section .tech-cards .card img {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+/* --------------------------------------------------------------------- */
+/* work with us section*/
+/* --------------------------------------------------------------------- */
+#working-with-us-section {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-items: center;
+    gap: 3rem;
+    padding: 10% 1.5rem;
+    color: #373737;
+}
+
+#working-with-us-section .working-with-us-card-section .card {
+    padding-left: 10rem;
+
+}
+
+#working-with-us-section .estimate-btn-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem 0;
+}
+
+#working-with-us-section .estimate-btn-section .estimate-txt {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+#working-with-us-section .estimate-btn-section .estimate-btn a {
+    color: #03030F;
+}
+/* -------------------------------------------------------------------- */
+/* footer*/
+/* -------------------------------------------------------------------- */
+#footer-section{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: #03030F;
+    color: #fff;
+    padding: 5% 1.5rem;
+}
+
+#footer-section .phone-numbers{
+    display: flex;
+    align-items: center;
+}
+
+#footer-section .phone-numbers .numbers{
+    margin-left: 2rem;
+}
+#footer-section .phone-numbers .numbers p{
+    padding: .5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .inovi-email .copy-right{
+    display: flex;
+    padding: 1rem 0;
+}
+
+#footer-section .inovi-email{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; 
+   align-items: center;
+}
+#footer-section .inovi-email .copy-right{
+    position: absolute;
+    bottom: 0;
+    color: #373737;
+}
+
+#footer-section .inovi-email .email{
+    display: flex;
+    margin: 5rem 0;
+    font-size: 1.3rem;
+}
+
+#footer-section .social-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end; 
+}
+#footer-section .social-media .inovi-social a{
+    margin: 0 1rem;
+}
+
+#footer-section .social-media .policy{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+#footer-section .social-media .policy a{
+    text-decoration: underline;
+    font-size: 1.3rem;
+    color: #373737;
+}
