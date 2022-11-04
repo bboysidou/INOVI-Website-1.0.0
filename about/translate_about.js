@@ -80,7 +80,7 @@ let data = {
 
 const lang = document.querySelector(".lang").querySelectorAll("a");
 const navLink1 = document.querySelector(".nav-link-1");
-const navLink2 = document.querySelector(".nav-link-2");
+// const navLink2 = document.querySelector(".nav-link-2");
 const navLink3 = document.querySelector(".nav-link-3");
 const navLink4 = document.querySelector(".nav-link-4");
 const navLink5 = document.querySelector(".nav-link-5");
@@ -114,7 +114,7 @@ const privacyEl = document.querySelector(".policy-p");
 // INIT
 // ------------------------------------------
 navLink1.textContent = data[language].nav_link_1;
-navLink2.textContent = data[language].nav_link_2;
+// navLink2.textContent = data[language].nav_link_2;
 navLink3.textContent = data[language].nav_link_3;
 navLink4.textContent = data[language].nav_link_4;
 navLink5.textContent = data[language].nav_link_5;
@@ -148,7 +148,7 @@ lang.forEach((el) => {
     localStorage.setItem("language", el.getAttribute("language"));
     const attr = el.getAttribute("language");
     navLink1.textContent = data[attr].nav_link_1;
-    navLink2.textContent = data[attr].nav_link_2;
+    // navLink2.textContent = data[attr].nav_link_2;
     navLink3.textContent = data[attr].nav_link_3;
     navLink4.textContent = data[attr].nav_link_4;
     navLink5.textContent = data[attr].nav_link_5;
